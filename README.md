@@ -36,11 +36,11 @@ This app has two pages:
 
 ## 📝 Your Tasks
 
-### Task 1: Create Reusable Components (🚨 Must Do)
+### Task 1: Create Reusable Components (🚨 Must Do)  --- ✅DONE
 
 Create a new folder `src/components/` and add these reusable components:
 
-#### 1. `TaskList` Component
+#### 1. `TaskList` Component--- ✅DONE
 - Accepts `tasks` array and `title` prop
 - Each task should display: name, status badge
 - Status badge colors: 
@@ -50,12 +50,12 @@ Create a new folder `src/components/` and add these reusable components:
 - Show empty state if no tasks
 - Use Tailwind classes (but only once!)
 
-#### 2. `QuoteSection` Component
+#### 2. `QuoteSection` Component--- ✅DONE
 - Accepts `quote` and `author` props
 - Display quote in italic with attribution
 - Optional: add `bgColor` prop (e.g., "bg-purple-50", "bg-blue-50")
 
-### Task 2: Create a Loading Component (🚨 Must Do)
+### Task 2: Create a Loading Component (🚨 Must Do)--- ✅DONE
 
 Create `src/components/Loading.jsx`:
 - Accept `size` prop: 
@@ -66,15 +66,15 @@ Create `src/components/Loading.jsx`:
 - Use the spinner from TasksPage (the one with the `spinner` class from `index.css`)
 - Make it reusable so both pages use the SAME component
 
-### 🏆 Bonus Challenge: Custom Hooks
+### 🏆 Bonus Challenge: Custom Hooks--- ✅DONE
 
 Create `src/hooks/` folder and extract data fetching:
 
-#### `useTasks.js`
+#### `useTasks.js`--- ✅DONE
 - Returns `{ tasks, loading, error }`
 - Move the setTimeout logic from TasksPage
 
-#### `useQuotes.js`  
+#### `useQuotes.js`  --- ✅DONE
 - Returns `{ quotes, loading, error }`
 - Move the setTimeout logic from QuotesPage
 
